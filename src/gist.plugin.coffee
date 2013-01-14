@@ -5,7 +5,7 @@ module.exports = (BasePlugin) ->
     
         getGist = (opts, next) ->
             {content} = opts
-            opts.content = content.replace(/<gist>/g,"<script src='https://gist.github.com/").replace(/<\/gist>/g,".js'></script>");
+            opts.content = content.replace(/<gist>/g,"<script defer async src='https://gist.github.com/").replace(/<\/gist>/g,".js'></script>");
             return next()
 
         renderDocument: (opts, next) ->
