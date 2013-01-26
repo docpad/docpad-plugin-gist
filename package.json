@@ -2,26 +2,28 @@
 	"name": "docpad-plugin-gist",
 	"version": "1.0.0",
 	"description": "Adds support for reading gist to DocPad",
-	"homepage": "https://github.com/bevry/docpad-extras",
+	"homepage": "http://docpad.org/plugin/gist",
 	"keywords": [
 		"docpad",
 		"docpad-plugin",
 		"plugin",
 		"gist"
 	],
-	"author": "Takeharu.Oshida(http://georgeosddev.github.com)",
+	"author": "Takeharu Oshida (http://georgeosddev.github.com)",
 	"maintainers": [
-		"Takeharu.Oshida(http://georgeosddev.github.com)"
+		"Takeharu Oshida (https://github.com/georgeOsdDev)",
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"contributors": [
-		"Takeharu.Oshida(http://georgeosddev.github.com)"
+		"Takeharu Oshida (https://github.com/georgeOsdDev)",
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"bugs": {
-		"url": "https://github.com/bevry/docpad-extras/issues"
+		"url": "https://github.com/docpad/docpad-plugin-gist/issues"
 	},
 	"repository" : {
 		"type": "git",
-		"url": "http://github.com/bevry/docpad-extras.git"
+		"url": "https://github.com/docpad/docpad-plugin-gist.git"
 	},
 	"engines" : {
 		"node": ">=0.4.0",
@@ -30,7 +32,7 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"coffee-script": "1.3.x"
+		"coffee-script": "~1.4.0"
 	},
 	"main": "./out/gist.plugin.js",
 	"scripts": {
