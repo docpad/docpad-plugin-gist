@@ -8,6 +8,9 @@ module.exports = (BasePlugin) ->
 
             gists = content.match(/<gist>.+<\/gist>/g)
 
+            unless gists?
+                return next()
+
             for gist in gists
                 gistScript = gist.replace(/<gist>/g,"<script src='https://gist.github.com/")
                 if gistScript.indexOf('.js') != -1
