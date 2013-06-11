@@ -11,7 +11,7 @@ Allows you to easily embed [Github Gists](https://gist.github.com/) into your [D
 ## Usage
 Add `<gist>your-gist-id</gist>` to your document and it will be rendered with the embedded gist in its place! :)
 
-You can also use `<gist>your-gist-id?file=filename</gist>` to embed just a particular file of the gist!
+You can also use `<gist>your-gist-id.js?file=filename</gist>` to embed just a particular file of the gist!
 
 
 ## Install
