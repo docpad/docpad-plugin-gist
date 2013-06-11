@@ -1,7 +1,7 @@
 {
 	"name": "docpad-plugin-gist",
-	"version": "2.0.0",
-	"description": "Adds support for reading gist to DocPad",
+	"version": "2.1.0",
+	"description": "Allows you to easily embed GitHub Gists into your DocPad documents",
 	"homepage": "http://docpad.org/plugin/gist",
 	"keywords": [
 		"docpad",
@@ -16,7 +16,8 @@
 	],
 	"contributors": [
 		"Takeharu Oshida (https://github.com/georgeOsdDev)",
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+		"Joe Fleming (https://github.com/w33ble)"
 	],
 	"bugs": {
 		"url": "https://github.com/docpad/docpad-plugin-gist/issues"
@@ -32,7 +33,8 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"coffee-script": "~1.4.0"
+		"coffee-script": "~1.4.0",
+		"docpad": ">=6.37 <7"
 	},
 	"main": "./out/gist.plugin.js",
 	"scripts": {
