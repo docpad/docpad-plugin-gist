@@ -32,7 +32,11 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"coffee-script": "~1.4.0"
+		"coffee-script": "~1.4.0",
+		"joe": "~1.2.0",
+		"docpad": "~6.38.1",
+		"joe-reporter-console": "~1.2.1",
+		"chai": "~1.6.1"
 	},
 	"main": "./out/gist.plugin.js",
 	"scripts": {
