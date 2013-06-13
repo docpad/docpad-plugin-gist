@@ -12,9 +12,14 @@ module.exports = (BasePlugin) ->
                 return next()
 
             for gist in gists
-                gistScript = gist.replace(/<gist>/g,"<script src='https://gist.github.com/")
-                if gistScript.indexOf('.js') != -1
-                    gistScript = gistScript.replace(/<\/gist>/g,"'></script>")
+                gistScript = gist
+                    .replace(/<gist>/g,"<script src='https://gist.github.com/")
+                    .replace(/\.js/, '') # always trim .js
+
+                if gistScript.indexOf('?file=') != -1
+                    gistScript = gistScript
+                        .replace(/\?file=/, '.js?file=') # always append .js
+                        .replace(/<\/gist>/g,"'></script>")
                 else
                     gistScript = gistScript.replace(/<\/gist>/g,".js'></script>")
 
