@@ -30,6 +30,9 @@ cake setup
 cake watch
 ```
 
+
+## Testing
+
 ### Setup for testing
 
 ``` bash

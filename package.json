@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-gist",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"description": "Allows you to easily embed GitHub Gists into your DocPad documents",
 	"homepage": "http://docpad.org/plugin/gist",
 	"keywords": [
@@ -33,7 +33,7 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"coffee-script": "~1.4.0",
+		"coffee-script": "~1.6.2",
 		"docpad": ">=6.37 <7"
 	},
 	"main": "./out/gist.plugin.js",
