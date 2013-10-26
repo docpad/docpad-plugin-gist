@@ -27,8 +27,7 @@
     "url": "https://github.com/docpad/docpad-plugin-gist.git"
   },
   "engines": {
-    "node": ">=0.4",
-    "docpad": "6.x"
+    "node": ">=0.4"
   },
   "dependencies": {},
   "devDependencies": {
