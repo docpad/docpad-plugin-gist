@@ -1,43 +1,44 @@
 {
-	"name": "docpad-plugin-gist",
-	"version": "2.1.1",
-	"description": "Allows you to easily embed GitHub Gists into your DocPad documents",
-	"homepage": "http://docpad.org/plugin/gist",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"plugin",
-		"gist"
-	],
-	"author": "Takeharu Oshida (http://georgeosddev.github.com)",
-	"maintainers": [
-		"Takeharu Oshida (https://github.com/georgeOsdDev)",
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Takeharu Oshida (https://github.com/georgeOsdDev)",
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-		"Joe Fleming (https://github.com/w33ble)"
-	],
-	"bugs": {
-		"url": "https://github.com/docpad/docpad-plugin-gist/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "https://github.com/docpad/docpad-plugin-gist.git"
-	},
-	"engines" : {
-		"node": ">=0.4",
-		"docpad": "6.x"
-	},
-	"dependencies": {
-	},
-	"devDependencies": {
-		"coffee-script": "~1.6.2",
-		"docpad": ">=6.37 <7"
-	},
-	"main": "./out/gist.plugin.js",
-	"scripts": {
-		"test": "node ./out/gist.test.js"
-	}
+  "name": "docpad-plugin-gist",
+  "version": "2.1.1",
+  "description": "Allows you to easily embed GitHub Gists into your DocPad documents",
+  "homepage": "http://docpad.org/plugin/gist",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "plugin",
+    "gist"
+  ],
+  "author": "Takeharu Oshida (http://georgeosddev.github.com)",
+  "maintainers": [
+    "Takeharu Oshida (https://github.com/georgeOsdDev)",
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Takeharu Oshida (https://github.com/georgeOsdDev)",
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Joe Fleming (https://github.com/w33ble)"
+  ],
+  "bugs": {
+    "url": "https://github.com/docpad/docpad-plugin-gist/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docpad/docpad-plugin-gist.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": "6.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.2"
+  },
+  "main": "./out/gist.plugin.js",
+  "scripts": {
+    "test": "node ./out/gist.test.js"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  }
 }
