@@ -9,15 +9,15 @@
     "plugin",
     "gist"
   ],
-  "author": "Takeharu Oshida (http://georgeosddev.github.com)",
+  "author": "2012+ Takeharu Oshida (http://georgeosddev.github.com)",
   "maintainers": [
     "Takeharu Oshida (https://github.com/georgeOsdDev)",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "contributors": [
-    "Takeharu Oshida (https://github.com/georgeOsdDev)",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-    "Joe Fleming (https://github.com/w33ble)"
+    "Joe Fleming (https://github.com/w33ble)",
+    "Takeharu Oshida (https://github.com/georgeOsdDev)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-gist/issues"
@@ -31,7 +31,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "coffee-script": "~1.6.2"
+    "coffee-script": "~1.6.2",
+    "docpad": "6",
+    "projectz": "~0.3.9"
   },
   "main": "./out/gist.plugin.js",
   "scripts": {
@@ -39,5 +41,18 @@
   },
   "peerDependencies": {
     "docpad": "6"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true,
+    "gittip": "docpad",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a"
+  },
+  "license": {
+    "type": "MIT"
   }
 }
