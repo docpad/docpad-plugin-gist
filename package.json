@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-gist",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Allows you to easily embed GitHub Gists into your DocPad documents",
   "homepage": "https://github.com/docpad/docpad-plugin-gist",
   "license": "MIT",

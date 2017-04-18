@@ -1,5 +1,8 @@
 # History
 
+## v2.2.0 2017 April 18
+- Updated base files
+
 ## v2.1.1 2013 June 14
 - More leniant syntax
   - Thanks to [Joe Fleming](https://github.com/w33ble) for [pull request #7](https://github.com/docpad/docpad-plugin-gist/pull/7)
