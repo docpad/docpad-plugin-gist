@@ -33,6 +33,9 @@ Add `<gist>your-gist-id</gist>` to your document and it will be rendered with th
 You can also use `<gist>your-gist-id?file=filename</gist>` to embed just a particular file of the gist!
 
 
+
+
+
 <!-- INSTALL/ -->
 
 <h2>Install</h2>
